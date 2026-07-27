@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research | Young Ah Shin</title>
+<meta name="description" content="Research on identity-based signatures, online/offline cryptographic protocols, privacy-preserving blockchain payments, and federated learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="wrap nav" aria-label="Main">
+    <a class="brand" href="index.html">Young Ah <span>Shin</span></a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a class="active" href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="service.html">Service</a>
+      <a class="cv-link" href="cvShin_updated.pdf" target="_blank" rel="noopener">CV</a>
+    </div>
+  </nav>
+</header>
+
+<div class="banner">
+  <div class="wrap">
+    <p class="eyebrow">Overview</p>
+    <h1>Research</h1>
+    <p class="lede">
+      Cryptographic approaches to trust and privacy in emerging systems — designed as
+      primitives, analysed under standard models, and evaluated against the constraints of
+      real devices.
+    </p>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap page">
+
+  <section class="section">
+    <h2 class="section-title">Research statement</h2>
+    <p>
+      Most privacy failures in deployed systems are not failures of the underlying
+      mathematics. They come from the gap between a clean security model and a device that
+      runs out of battery, delegates authority to an intermediary, or leaks intermediate
+      state between two phases of a protocol. My work targets that gap: I build
+      cryptographic primitives whose security definitions include these operational
+      realities, and then prove the constructions meet them.
+    </p>
+    <p>
+      Three threads run through my research — <strong>delegation</strong> (who may sign on
+      whose behalf, and with which key), <strong>phase separation</strong> (what an
+      adversary learns between precomputation and use), and <strong>selective
+      accountability</strong> (how a system can be private by default yet auditable when
+      policy demands it).
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Doctoral research</h2>
+    <p>
+      <em>Practical Secure Design of Online and Offline Cryptographic Protocols for Mobile
+      Application</em> — Korea University, School of Cybersecurity.
+    </p>
+
+    <div class="rail-list" style="margin-top:22px">
+      <article class="rail-item">
+        <div class="rail-key">Part I</div>
+        <div class="rail-body">
+          <h3>Identity-based multi-proxy signatures for the Internet of Drones</h3>
+          <p class="note">
+            Establishes why a proxy signing key must be separated from the long-term private
+            key in public-key settings, proposes a provably secure identity-based multi-proxy
+            signature scheme on that basis, and extends it to the online/offline setting so
+            that a resource-constrained drone performs only cheap operations in flight.
+          </p>
+        </div>
+      </article>
+      <article class="rail-item">
+        <div class="rail-key">Part II</div>
+        <div class="rail-body">
+          <h3>On/offline signcryption secure against memory corruption between phases</h3>
+          <p class="note">
+            Identifies a previously overlooked threat in multi-device deployments: offline
+            precomputed state can be read or corrupted before the online phase consumes it.
+            Formalises the threat and gives two identity-based on/offline signcryption
+            schemes with provable security against it.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Areas of interest</h2>
+
+    <p class="section-sub">Digital signatures and provable security</p>
+    <ul class="bullets">
+      <li>Identity-based signatures, proxy and multi-proxy signatures, multi-signatures, adaptor signatures</li>
+      <li>Online/offline signatures and signcryption for mobile and multi-device systems</li>
+      <li>Security models and reduction-based proofs, including models that capture state exposure</li>
+    </ul>
+
+    <p class="section-sub">Blockchain privacy and scalability</p>
+    <ul class="bullets">
+      <li>Payment channels, payment channel hubs, and leader election for multi-party channels</li>
+      <li>Anonymous payments with fine-grained auditing</li>
+      <li>CBDC privacy, regulation-compliant tracing, and digital-asset transaction analysis</li>
+    </ul>
+
+    <p class="section-sub">Privacy-preserving artificial intelligence</p>
+    <ul class="bullets">
+      <li>Horizontal and vertical federated learning, including defences against passive label inference</li>
+      <li>Metadata leakage in collaborative learning, such as local training dataset size</li>
+      <li>Cryptographically authorised and accountable transactions between autonomous agents</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Work in progress</h2>
+    <div class="rail-list">
+      <article class="rail-item">
+        <div class="rail-key">Q3 2026</div>
+        <div class="rail-body">
+          <h3>Bitcoin-compatible anonymous payment channel hub with fine-grained auditing</h3>
+          <p class="note">
+            A hub design that preserves payer&ndash;payee unlinkability while allowing an
+            auditor to open only the transactions that a stated policy requires, without
+            changing Bitcoin consensus rules.
+          </p>
+        </div>
+      </article>
+      <article class="rail-item">
+        <div class="rail-key">Q2 2026</div>
+        <div class="rail-body">
+          <h3>Unpredictable leader election for multi-party payment channels</h3>
+          <p class="note">
+            Decentralised and robust leader selection that removes the single point of
+            failure in multi-party channel coordination while resisting grinding and
+            prediction attacks.
+          </p>
+        </div>
+      </article>
+    </div>
+    <div class="callout">
+      <p>A full list of publications, including works under review, is on the <a href="publications.html">publications page</a>.</p>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <span>© 2026 Young Ah Shin · Last updated July 2026</span>
+    <div class="footer-links">
+      <a href="mailto:yashin95@korea.ac.kr">Email</a>
+      <a href="cvShin_updated.pdf" target="_blank" rel="noopener">CV</a>
+      <a href="https://scholar.google.com/citations?user=QF94qp0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://orcid.org/0000-0001-7969-7143" target="_blank" rel="noopener">ORCID</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
