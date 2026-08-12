@@ -10,7 +10,7 @@ reported and left alone, so nothing is silently lost.
 
 import base64, json, os, re, sys
 
-USER, REPO, BRANCH = "youngkorea", "ai-programming-fundamentals", "main"
+USER, REPO, BRANCH = "youngah-shin", "youngashin.github.io", "main"
 RAW = f"https://raw.githubusercontent.com/{USER}/{REPO}/{BRANCH}/img/"
 IMG_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "img")
 

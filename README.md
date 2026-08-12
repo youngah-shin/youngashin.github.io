@@ -7,7 +7,7 @@ Notebooks are executable: concepts and hands-on practice live in the same file.
 
 | Week | Topic | Open |
 |---|---|---|
-| 1 | Course Overview | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/youngkorea/ai-programming-fundamentals/blob/main/notebooks/Week01.ipynb) |
+| 1 | Course Overview | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/youngah-shin/youngashin.github.io/blob/main/notebooks/Week01.ipynb) |
 | 2 | Data Types and Variables | _not yet published_ |
 | 3 | Lists and Tuples | _not yet published_ |
 | 4 | Dictionaries and Sets | _not yet published_ |
@@ -36,7 +36,7 @@ tools/       generators that produce everything in img/
 Notebooks do not embed images. They reference this repository over HTTPS:
 
 ```html
-<img src="https://raw.githubusercontent.com/youngkorea/ai-programming-fundamentals/main/img/w01_cover.svg" width="900" alt="AI Programming Fundamentals - W01">
+<img src="https://raw.githubusercontent.com/youngah-shin/youngashin.github.io/main/img/w01_cover.svg" width="900" alt="AI Programming Fundamentals - W01">
 ```
 
 Colab strips inline CSS from text cells, so anything that needs real layout is either an
