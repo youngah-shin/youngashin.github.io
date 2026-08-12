@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="152" viewBox="0 0 900 152">
+<rect x="0" y="0" width="291" height="152" rx="6" fill="#F4F9FE" stroke="#D6E4F3" stroke-width="1"/>
+<text x="18" y="36" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0C447C">
+<tspan x="18" dy="0">NumPy</tspan>
+</text>
+<text x="18" y="61" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">
+<tspan x="18" dy="0">High-performance numerical</tspan>
+<tspan x="18" dy="21">computing. Arrays and vectorised</tspan>
+<tspan x="18" dy="21">maths underneath almost every</tspan>
+<tspan x="18" dy="21">data library.</tspan>
+</text>
+<rect x="305" y="0" width="291" height="152" rx="6" fill="#F4F9FE" stroke="#D6E4F3" stroke-width="1"/>
+<text x="323" y="36" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0C447C">
+<tspan x="323" dy="0">Pandas</tspan>
+</text>
+<text x="323" y="61" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">
+<tspan x="323" dy="0">Data processing and analysis.</tspan>
+<tspan x="323" dy="21">Tables, filtering, grouping,</tspan>
+<tspan x="323" dy="21">joining, and reading files.</tspan>
+</text>
+<rect x="609" y="0" width="291" height="152" rx="6" fill="#F4F9FE" stroke="#D6E4F3" stroke-width="1"/>
+<text x="627" y="36" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0C447C">
+<tspan x="627" dy="0">Matplotlib / Seaborn</tspan>
+</text>
+<text x="627" y="61" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">
+<tspan x="627" dy="0">Data visualization. Charts for</tspan>
+<tspan x="627" dy="21">exploring data and for presenting</tspan>
+<tspan x="627" dy="21">results.</tspan>
+</text>
+</svg>

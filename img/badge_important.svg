@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="204" height="52" viewBox="0 0 204 52">
+<rect x="0" y="0" width="204" height="52" rx="6" fill="#FCEBEB"/>
+<rect x="0" y="0" width="14" height="52" rx="6" fill="#A32D2D"/>
+<rect x="8" y="0" width="6" height="52" fill="#A32D2D"/>
+<text x="30" y="35" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#501313" letter-spacing="1.2">IMPORTANT</text>
+</svg>

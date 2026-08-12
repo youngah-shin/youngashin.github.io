@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="201" viewBox="0 0 900 201">
+<rect x="0" y="0" width="214" height="201" rx="6" fill="#F4F9FE" stroke="#D6E4F3" stroke-width="1"/>
+<circle cx="30" cy="28" r="12" fill="#185FA5"/>
+<text x="30" y="33" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="18" y="66" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0C447C">
+<tspan x="18" dy="0">Explain</tspan>
+</text>
+<text x="18" y="91" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">
+<tspan x="18" dy="0">Why Python is the</tspan>
+<tspan x="18" dy="21">dominant language in</tspan>
+<tspan x="18" dy="21">data analysis and</tspan>
+<tspan x="18" dy="21">artificial</tspan>
+<tspan x="18" dy="21">intelligence.</tspan>
+</text>
+<rect x="228" y="0" width="214" height="201" rx="6" fill="#F4F9FE" stroke="#D6E4F3" stroke-width="1"/>
+<circle cx="258" cy="28" r="12" fill="#185FA5"/>
+<text x="258" y="33" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="246" y="66" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0C447C">
+<tspan x="246" dy="0">Identify</tspan>
+</text>
+<text x="246" y="91" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">
+<tspan x="246" dy="0">The equipment required</tspan>
+<tspan x="246" dy="21">for coursework and</tspan>
+<tspan x="246" dy="21">exams.</tspan>
+</text>
+<rect x="457" y="0" width="214" height="201" rx="6" fill="#F4F9FE" stroke="#D6E4F3" stroke-width="1"/>
+<circle cx="487" cy="28" r="12" fill="#185FA5"/>
+<text x="487" y="33" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="475" y="66" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0C447C">
+<tspan x="475" dy="0">Compare</tspan>
+</text>
+<text x="475" y="91" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">
+<tspan x="475" dy="0">Jupyter Notebook and</tspan>
+<tspan x="475" dy="21">Colab, and select Colab</tspan>
+<tspan x="475" dy="21">as the practice</tspan>
+<tspan x="475" dy="21">environment.</tspan>
+</text>
+<rect x="686" y="0" width="214" height="201" rx="6" fill="#F4F9FE" stroke="#D6E4F3" stroke-width="1"/>
+<circle cx="716" cy="28" r="12" fill="#185FA5"/>
+<text x="716" y="33" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="704" y="66" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0C447C">
+<tspan x="704" dy="0">Create</tspan>
+</text>
+<text x="704" y="91" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">
+<tspan x="704" dy="0">A Colab notebook, then</tspan>
+<tspan x="704" dy="21">write, run, and comment</tspan>
+<tspan x="704" dy="21">a first Python program.</tspan>
+</text>
+</svg>

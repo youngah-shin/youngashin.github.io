@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="682" viewBox="0 0 900 682">
+<rect x="0" y="0" width="443" height="256" rx="6" fill="#F4F9FE" stroke="#D6E4F3" stroke-width="1"/>
+<rect x="0" y="0" width="5" height="256" fill="#185FA5"/>
+<text x="22" y="48" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#0C447C">
+<tspan x="22" dy="0">Course goals</tspan>
+</text>
+<text x="22" y="88" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#3D3D3A">
+<tspan x="22" dy="0">Learn the basic syntax and</tspan>
+<tspan x="22" dy="34">concepts of Python for data</tspan>
+<tspan x="22" dy="34">analysis and AI modeling, and</tspan>
+<tspan x="22" dy="34">build hands-on programming</tspan>
+<tspan x="22" dy="34">skills.</tspan>
+</text>
+<rect x="457" y="0" width="443" height="256" rx="6" fill="#F4F9FE" stroke="#D6E4F3" stroke-width="1"/>
+<rect x="457" y="0" width="5" height="256" fill="#185FA5"/>
+<text x="479" y="48" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#0C447C">
+<tspan x="479" dy="0">Requirements</tspan>
+</text>
+<text x="479" y="88" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#3D3D3A">
+<tspan x="479" dy="0">A computer that runs Python.</tspan>
+<tspan x="479" dy="34">Mobile devices are not</tspan>
+<tspan x="479" dy="34">recommended, and a separate</tspan>
+<tspan x="479" dy="34">coding computer is required</tspan>
+<tspan x="479" dy="34">for the exams.</tspan>
+</text>
+<rect x="0" y="270" width="443" height="290" rx="6" fill="#F4F9FE" stroke="#D6E4F3" stroke-width="1"/>
+<rect x="0" y="270" width="5" height="290" fill="#185FA5"/>
+<text x="22" y="318" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#0C447C">
+<tspan x="22" dy="0">Why Python</tspan>
+</text>
+<text x="22" y="358" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#3D3D3A">
+<tspan x="22" dy="0">A rich library ecosystem</tspan>
+<tspan x="22" dy="34">(NumPy, Pandas, Matplotlib and</tspan>
+<tspan x="22" dy="34">Seaborn), readable syntax, a</tspan>
+<tspan x="22" dy="34">strong community, and</tspan>
+<tspan x="22" dy="34">compatibility with machine</tspan>
+<tspan x="22" dy="34">learning frameworks.</tspan>
+</text>
+<rect x="457" y="270" width="443" height="290" rx="6" fill="#F4F9FE" stroke="#D6E4F3" stroke-width="1"/>
+<rect x="457" y="270" width="5" height="290" fill="#185FA5"/>
+<text x="479" y="318" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#0C447C">
+<tspan x="479" dy="0">Why Colab</tspan>
+</text>
+<text x="479" y="358" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#3D3D3A">
+<tspan x="479" dy="0">No installation, free access</tspan>
+<tspan x="479" dy="34">to GPU and TPU resources, and</tspan>
+<tspan x="479" dy="34">the same environment for every</tspan>
+<tspan x="479" dy="34">student.</tspan>
+</text>
+<rect x="0" y="574" width="900" height="108" rx="6" fill="#E6F1FB"/>
+<text x="22" y="612" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#0C447C">First steps in Colab</text>
+<rect x="22" y="630" width="171" height="40" rx="20" fill="#FFFFFF"/><text x="107" y="655" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#0C447C" text-anchor="middle">New notebook</text>
+<text x="204" y="657" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#378ADD" text-anchor="middle">→</text>
+<rect x="215" y="630" width="148" height="40" rx="20" fill="#FFFFFF"/><text x="288" y="655" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#0C447C" text-anchor="middle">Run a cell</text>
+<text x="373" y="657" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#378ADD" text-anchor="middle">→</text>
+<rect x="384" y="630" width="136" height="40" rx="20" fill="#FFFFFF"/><text x="452" y="655" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#0C447C" text-anchor="middle">Add cells</text>
+<text x="531" y="657" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#378ADD" text-anchor="middle">→</text>
+<rect x="542" y="630" width="136" height="40" rx="20" fill="#FFFFFF"/><text x="610" y="655" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#0C447C" text-anchor="middle">Variables</text>
+<text x="689" y="657" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#378ADD" text-anchor="middle">→</text>
+<rect x="700" y="630" width="124" height="40" rx="20" fill="#FFFFFF"/><text x="762" y="655" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#0C447C" text-anchor="middle">Comments</text>
+</svg>

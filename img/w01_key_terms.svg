@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="142" viewBox="0 0 900 142">
+<text x="0" y="22" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#73726C" letter-spacing="1.2">KEY TERMS</text>
+<rect x="0" y="40" width="123" height="46" rx="23" fill="#E6F1FB"/><text x="62" y="68" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#0C447C" text-anchor="middle">Python</text>
+<rect x="133" y="40" width="206" height="46" rx="23" fill="#E6F1FB"/><text x="236" y="68" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#0C447C" text-anchor="middle">Google Colab</text>
+<rect x="349" y="40" width="262" height="46" rx="23" fill="#E6F1FB"/><text x="480" y="68" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#0C447C" text-anchor="middle">Jupyter Notebook</text>
+<rect x="621" y="40" width="165" height="46" rx="23" fill="#E6F1FB"/><text x="704" y="68" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#0C447C" text-anchor="middle">code cell</text>
+<rect x="0" y="96" width="165" height="46" rx="23" fill="#E6F1FB"/><text x="82" y="124" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#0C447C" text-anchor="middle">text cell</text>
+<rect x="175" y="96" width="137" height="46" rx="23" fill="#E6F1FB"/><text x="243" y="124" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#0C447C" text-anchor="middle">runtime</text>
+<rect x="322" y="96" width="151" height="46" rx="23" fill="#E6F1FB"/><text x="397" y="124" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#0C447C" text-anchor="middle">variable</text>
+<rect x="483" y="96" width="137" height="46" rx="23" fill="#E6F1FB"/><text x="551" y="124" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#0C447C" text-anchor="middle">comment</text>
+<rect x="630" y="96" width="262" height="46" rx="23" fill="#E6F1FB"/><text x="761" y="124" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#0C447C" text-anchor="middle">automatic output</text>
+</svg>

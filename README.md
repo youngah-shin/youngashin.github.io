@@ -1,71 +1,89 @@
-# Young Ah Shin — Academic Homepage
+# AI Programming Fundamentals
 
-A static academic homepage in the layout convention used by faculty and postdoc pages
-(Home / Research / Publications / Projects / Teaching / Service / CV). No build step, no
-dependencies — plain HTML and one stylesheet.
+Lecture notebooks for an introductory Python course, delivered through Google Colab.
+Notebooks are executable: concepts and hands-on practice live in the same file.
 
-## Files
+## Weekly notebooks
 
-| File | Purpose |
-| --- | --- |
-| `index.html` | Home: profile, bio, news, research directions, education, skills |
-| `research.html` | Research statement, doctoral research, areas of interest, work in progress |
-| `publications.html` | Journal articles, manuscripts under review, theses |
-| `projects.html` | Funded projects, patents, registered software |
-| `teaching.html` | Courses, teaching interests, student training |
-| `service.html` | Conference organisation, international collaboration, outreach |
-| `about.html` | Redirect to `index.html` (kept so old links do not break) |
-| `styles.css` | Shared stylesheet |
-| `cvShin_updated.pdf` | CV |
+| Week | Topic | Open |
+|---|---|---|
+| 1 | Course Overview | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/youngkorea/ai-programming-fundamentals/blob/main/notebooks/Week01.ipynb) |
+| 2 | Data Types and Variables | _not yet published_ |
+| 3 | Lists and Tuples | _not yet published_ |
+| 4 | Dictionaries and Sets | _not yet published_ |
+| 5 | Conditional Statements | _not yet published_ |
+| 6 | Loops | _not yet published_ |
+| 7 | Functions | _not yet published_ |
+| **8** | **Midterm Exam** | |
+| 9 | Strings and Regular Expressions | _not yet published_ |
+| 10 | Modules and Packages | _not yet published_ |
+| 11 | File I/O and Exception Handling | _not yet published_ |
+| 12 | Classes | _not yet published_ |
+| 13 | Advanced Topics | _not yet published_ |
+| 14 | Introduction to Data Analysis Libraries | _not yet published_ |
+| **15** | **Final Exam** | |
 
-## Deploy to GitHub Pages
+## Repository layout
 
-Upload every file to the **root** of `youngahshin/youngahshin.github.io` — not inside a
-folder. Then go to *Settings → Pages* and set the source to the `main` branch, root
-directory. The site appears at `https://youngahshin.github.io`.
-
-```text
-index.html
-research.html
-publications.html
-projects.html
-teaching.html
-service.html
-about.html
-styles.css
-cvShin_updated.pdf
-README.md
+```
+notebooks/   lecture notebooks, one per week   Week01.ipynb ...
+img/         SVG graphics referenced by the notebooks
+tools/       generators that produce everything in img/
 ```
 
-## Add a photo
+## How graphics work
 
-1. Put a portrait image named `profile.jpg` in the same folder (4:5 ratio works best,
-   at least 600 × 750 px).
-2. Open `index.html`, find `<div class="portrait">`, and replace the `YS` initials with:
+Notebooks do not embed images. They reference this repository over HTTPS:
 
 ```html
-<img src="profile.jpg" alt="Portrait of Young Ah Shin">
+<img src="https://raw.githubusercontent.com/youngkorea/ai-programming-fundamentals/main/img/w01_cover.svg" width="900" alt="AI Programming Fundamentals - W01">
 ```
 
-## Routine updates
+Colab strips inline CSS from text cells, so anything that needs real layout is either an
+SVG in `img/` or a `#@title` code cell whose HTML output is stored in the notebook.
 
-- **New paper** — copy an existing `<li class="pub">` block in `publications.html`,
-  change the year in `pub-key`, and drop the `tag` element once it is published.
-- **Status change** — the badge classes are `tag review` (crimson outline),
-  `tag progress` (dashed outline), and plain `tag`.
-- **New project or course** — copy a `<article class="rail-item">` block; the left column
-  is the date, the right column is the content.
-- **News** — add an `<li>` to the `.news` list on `index.html`. Keep it to about six
-  items; delete the oldest as you add.
-- Update the "Last updated" date in each footer when you make a substantive change.
+## File naming
 
-## Design notes
+`w{week:02d}_{element}.svg`
 
-- **Type**: Source Serif 4 for prose, Inter for navigation and labels, IBM Plex Mono for
-  dates and identifiers. Loaded from Google Fonts.
-- **Colour**: ink `#17191d`, crimson accent `#8a1f2b`, warm wash `#f6f5f2`.
-- The left-hand mono date rail is the recurring structural device — it runs through
-  education, publications, projects, teaching, and service, so the whole site reads as one
-  timeline. On screens under 720px it collapses above each entry.
-- Accessibility: skip link, visible focus rings, semantic headings, `prefers-reduced-motion`
-  respected.
+| Element | Example |
+|---|---|
+| Cover | `w01_cover.svg` |
+| Unit header | `w01_unit1.svg` ... `w01_unit4.svg` |
+| Chart or figure | `w01_grading_bar.svg`, `w01_weekly_roadmap.svg` |
+
+## Regenerating graphics
+
+```bash
+cd img
+python ../tools/make_titles_svg.py    # cover and unit headers
+python ../tools/make_svg.py           # grading bar, weekly roadmap
+```
+
+Edit the `CONFIG` block at the top of each script; the layout maths adjusts on its own.
+Both scripts print a warning when a title is too long for its box, and both account for
+the wider glyphs of Korean text.
+
+## Notes for future edits
+
+- `raw.githubusercontent.com` caches for a few minutes. A graphic changed minutes before
+  class may still serve the old version. Finalise the day before.
+- The repository must stay **public**. Raw URLs from a private repository require a token
+  that expires, which breaks every image for every student.
+- SVG text renders with a font from the reader's machine. These files request Roboto,
+  then Arial, then Helvetica. Export to PNG if a missing font would be unacceptable.
+- Always set `alt` on `<img>`. If the image fails to load, the title still reads.
+
+## Colour system
+
+Colour encodes heading depth, not section identity, so the rule holds across all fifteen weeks.
+
+| Level | Markdown | Light theme | Dark theme |
+|---|---|---|---|
+| Course | `#` | `#0C447C` | `#85B7EB` |
+| Week | `##` | `#0F6E56` | `#5DCAA5` |
+| Unit | `###` | `#185FA5` on `#E6F1FB`, badge `#0C447C` | `#B5D4F4` |
+
+Course and Unit share the blue ramp. They stay apart through size and through the
+badge-and-band device on the unit header, not through hue. Below the unit level,
+headings are plain markdown text — there is no per-topic graphic.

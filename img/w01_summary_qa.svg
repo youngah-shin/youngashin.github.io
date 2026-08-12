@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+<rect x="0" y="0" width="900" height="64" rx="6" fill="#FAEEDA"/>
+<rect x="0" y="0" width="12" height="64" rx="6" fill="#854F0B"/>
+<rect x="6" y="0" width="6" height="64" fill="#854F0B"/>
+<text x="28" y="41" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#412402">What is this course for?</text>
+<text x="423" y="41" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#854F0B">Python for data analysis and AI</text>
+<rect x="0" y="74" width="900" height="64" rx="6" fill="#FAEEDA"/>
+<rect x="0" y="74" width="12" height="64" rx="6" fill="#854F0B"/>
+<rect x="6" y="74" width="6" height="64" fill="#854F0B"/>
+<text x="28" y="115" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#412402">What do I need?</text>
+<text x="423" y="115" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#854F0B">A computer, plus one for exams</text>
+<rect x="0" y="148" width="900" height="64" rx="6" fill="#FAEEDA"/>
+<rect x="0" y="148" width="12" height="64" rx="6" fill="#854F0B"/>
+<rect x="6" y="148" width="6" height="64" fill="#854F0B"/>
+<text x="28" y="189" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#412402">Why Python?</text>
+<text x="423" y="189" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#854F0B">Libraries, readability, demand</text>
+<rect x="0" y="222" width="900" height="64" rx="6" fill="#FAEEDA"/>
+<rect x="0" y="222" width="12" height="64" rx="6" fill="#854F0B"/>
+<rect x="6" y="222" width="6" height="64" fill="#854F0B"/>
+<text x="28" y="263" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#412402">Why Colab?</text>
+<text x="423" y="263" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#854F0B">No install, free GPU, one setup</text>
+<rect x="0" y="296" width="900" height="64" rx="6" fill="#FAEEDA"/>
+<rect x="0" y="296" width="12" height="64" rx="6" fill="#854F0B"/>
+<rect x="6" y="296" width="6" height="64" fill="#854F0B"/>
+<text x="28" y="337" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#412402">What can I already do?</text>
+<text x="423" y="337" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#854F0B">Write, run, and comment a cell</text>
+</svg>

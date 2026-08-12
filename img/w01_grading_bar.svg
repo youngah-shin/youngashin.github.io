@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="46" viewBox="0 0 900 46">
+<rect x="0" y="0" width="360" height="46" fill="#0C447C"/><text x="180.0" y="29" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Assignments 40%</text>
+<rect x="360" y="0" width="180" height="46" fill="#185FA5"/><text x="450.0" y="29" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Midterm 20%</text>
+<rect x="540" y="0" width="180" height="46" fill="#378ADD"/><text x="630.0" y="29" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Final 20%</text>
+<rect x="720" y="0" width="90" height="46" fill="#85B7EB"/><text x="765.0" y="29" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#042C53" text-anchor="middle">Att. 10%</text>
+<rect x="810" y="0" width="90" height="46" fill="#B5D4F4"/><text x="855.0" y="29" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#042C53" text-anchor="middle">Part. 10%</text>
+</svg>

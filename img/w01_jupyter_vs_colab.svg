@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="248" viewBox="0 0 900 248">
+<rect x="0" y="0" width="443" height="248" rx="6" fill="#F4F9FE" stroke="#D6E4F3" stroke-width="1"/>
+<rect x="0" y="0" width="443" height="4" fill="#73726C"/>
+<text x="18" y="36" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#3D3D3A">Jupyter Notebook</text>
+<rect x="457" y="0" width="443" height="248" rx="6" fill="#E6F1FB" stroke="#D6E4F3" stroke-width="1"/>
+<rect x="457" y="0" width="443" height="4" fill="#185FA5"/>
+<text x="475" y="36" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0C447C">Google Colab</text>
+<rect x="787" y="18" width="95" height="22" rx="11" fill="#185FA5"/>
+<text x="835" y="34" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">WE USE THIS</text>
+<rect x="0" y="54" width="443" height="1" fill="#D6E4F3"/>
+<text x="18" y="84" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#A32D2D">✕</text>
+<text x="40" y="76" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#73726C">Installation</text>
+<text x="40" y="92" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">Required</text>
+<rect x="457" y="54" width="443" height="1" fill="#D6E4F3"/>
+<text x="475" y="84" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#3B6D11">✓</text>
+<text x="497" y="76" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#73726C">Installation</text>
+<text x="497" y="92" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">Not required</text>
+<rect x="0" y="100" width="443" height="1" fill="#D6E4F3"/>
+<text x="18" y="130" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#3B6D11">✓</text>
+<text x="40" y="122" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#73726C">Internet connection</text>
+<text x="40" y="138" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">Works offline</text>
+<rect x="457" y="100" width="443" height="1" fill="#D6E4F3"/>
+<text x="475" y="130" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#A32D2D">✕</text>
+<text x="497" y="122" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#73726C">Internet connection</text>
+<text x="497" y="138" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">Required</text>
+<rect x="0" y="146" width="443" height="1" fill="#D6E4F3"/>
+<text x="18" y="176" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#A32D2D">✕</text>
+<text x="40" y="168" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#73726C">Computing resources</text>
+<text x="40" y="184" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">Local machine only</text>
+<rect x="457" y="146" width="443" height="1" fill="#D6E4F3"/>
+<text x="475" y="176" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#3B6D11">✓</text>
+<text x="497" y="168" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#73726C">Computing resources</text>
+<text x="497" y="184" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">GPU and TPU, free or paid</text>
+<rect x="0" y="192" width="443" height="1" fill="#D6E4F3"/>
+<text x="18" y="222" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#A32D2D">✕</text>
+<text x="40" y="214" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#73726C">Environment setup</text>
+<text x="40" y="230" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">Version management</text>
+<rect x="457" y="192" width="443" height="1" fill="#D6E4F3"/>
+<text x="475" y="222" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#3B6D11">✓</text>
+<text x="497" y="214" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#73726C">Environment setup</text>
+<text x="497" y="230" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">Not required by default</text>
+</svg>

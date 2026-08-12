@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="309" viewBox="0 0 900 309">
+<rect x="0" y="0" width="900" height="88" rx="6" fill="#F4F9FE" stroke="#D6E4F3" stroke-width="1"/>
+<rect x="0" y="0" width="44" height="88" rx="6" fill="#185FA5"/>
+<rect x="36" y="0" width="8" height="88" fill="#185FA5"/>
+<text x="22" y="52" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="62" y="36" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0C447C">
+<tspan x="62" dy="0">Create a Google account</tspan>
+</text>
+<text x="62" y="61" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">
+<tspan x="62" dy="0">Go to accounts.google.com and click Create account. Skip this step if you already have one.</tspan>
+</text>
+<rect x="0" y="100" width="900" height="88" rx="6" fill="#F4F9FE" stroke="#D6E4F3" stroke-width="1"/>
+<rect x="0" y="100" width="44" height="88" rx="6" fill="#185FA5"/>
+<rect x="36" y="100" width="8" height="88" fill="#185FA5"/>
+<text x="22" y="152" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="62" y="136" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0C447C">
+<tspan x="62" dy="0">Open the Google Colab website</tspan>
+</text>
+<text x="62" y="161" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">
+<tspan x="62" dy="0">colab.google</tspan>
+</text>
+<rect x="0" y="200" width="900" height="109" rx="6" fill="#F4F9FE" stroke="#D6E4F3" stroke-width="1"/>
+<rect x="0" y="200" width="44" height="109" rx="6" fill="#185FA5"/>
+<rect x="36" y="200" width="8" height="109" fill="#185FA5"/>
+<text x="22" y="262" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="62" y="236" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0C447C">
+<tspan x="62" dy="0">Create or open a notebook</tspan>
+</text>
+<text x="62" y="261" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#3D3D3A">
+<tspan x="62" dy="0">Click + New notebook to start fresh. Or click Upload, then Browse, to select a notebook file such as</tspan>
+<tspan x="62" dy="21">AIProgrammingFundamentals_Week01.ipynb.</tspan>
+</text>
+</svg>
